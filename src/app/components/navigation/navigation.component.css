@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: #323232;
+    font-family: 'Dosis', sans-serif;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.nav-main {
+    background-color: #323232;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    padding: 10px;
+}
+
+.btn:hover {
+    background: #ff8000;
+    transition: 0.5s;
+}
+
+.icon {
+    font-family: 'Nerko One', cursive;
+    font-size: 30px;
+}
